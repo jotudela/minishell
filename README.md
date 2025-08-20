@@ -35,13 +35,13 @@ To execute my program wich is called `minishell`, compile it using :
 ```bash
 make
 ```
-<br>
+
 
 It run like that :
 ```bash
 ./minishell
 ```
-<br>
+
 
 As long as the program is running, it display a prompt to invite the user to write a command.
 
@@ -50,7 +50,7 @@ Example :
 /Users/user/docs/minishell
 💻 ls -l
 ```
-<br>
+
 
 output :
 ```bash
@@ -58,7 +58,7 @@ total 8
 -rw-r--r-- 1 user user 1024 Jan 15 2025 file1.txt
 -rw-r--r-- 1 user user 2048 Jan 15 2025 file2.txt
 ```
-<br>
+
 
 ## 🔍 Core Features
 
@@ -66,7 +66,7 @@ The program implements the following core functionalities :
 
 ### Command Execution
 - Search and execute commands based on the PATH environment variable or absolute/relative paths.
-<br>
+
 
 ### Built-in Commands
 The following built-in commands must be implemented :
@@ -79,7 +79,7 @@ The following built-in commands must be implemented :
 | `unset` | Unsets environment variables. |
 | `env` | Displays the current environment variables. |
 | `exit` | Exit the shell. |
-<br>
+
 
 ### Redirection
 | Sign | Brief |
@@ -88,11 +88,11 @@ The following built-in commands must be implemented :
 | `>` | Redirect output to a file. |
 | `<<` | Implement heredoc functionality. |
 | `>>` | Apend output to a file. |
-<br>
+
 
 ### Pipes
 - Handle pipelines `|`, chaining multiple commands together so the output of one becomes the input of the next.
-<br>
+
 
 ### Signal Handling
 | Shortcut | Brief |
@@ -100,12 +100,12 @@ The following built-in commands must be implemented :
 | `Ctrl+C` | Interrupts the current command and displays a new prompt. |
 | `Ctrl+D` | Exit the shell. |
 | `Ctrl+\` | Does nothing, mimicking bash behavior. |
-<br>
+
 
 ### Environment Variables
 - Handle `$` expansion to substitute environment variables.
 - Handle `$?` to display the exit status of the last executed command.
-<br>
+
 
 My final grade :
 
