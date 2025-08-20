@@ -42,6 +42,7 @@ It run like that :
 ```
 
 As long as the program is running, it display a prompt to invite the user write a command.
+
 Example :
 ```bash
 /Users/user/docs/minishell
