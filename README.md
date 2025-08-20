@@ -75,6 +75,27 @@ The following built-in commands must be implemented :
 | `env` | Displays the current environment variables. |
 | `exit` | Exit the shell. |
 
+### Redirection
+| Sign | Brief |
+|------| :---: |
+| `<` | Redirect input from a file. |
+| `>` | Redirect output to a file. |
+| `<<` | Implement heredoc functionality. |
+| `>>` | Apend output to a file. |
+
+### Pipes
+- Handle pipelines `|`, chaining multiple commands together so the output of one becomes the input of the next.
+
+### Signal Handling
+| Shortcut | Brief |
+|----------| :---: |
+| `Ctrl+C` | Interrupts the current command and displays a new prompt. |
+| `Ctrl+D` | Exit the shell. |
+| `Ctrl+\` | Does nothing, mimicking bash behavior. |
+
+### Environment Variables
+- Handle `$` expansion to substitute environment variables.
+- Handle `$?` to display the exit status of the last executed command.
 
 My final grade :
 
