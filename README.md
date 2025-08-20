@@ -41,7 +41,7 @@ It run like that :
 ./minishell
 ```
 
-As long as the program is running, it display a prompt to invite the user write a command.
+As long as the program is running, it display a prompt to invite the user to write a command.
 
 Example :
 ```bash
