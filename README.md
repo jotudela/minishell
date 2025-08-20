@@ -56,6 +56,26 @@ total 8
 -rw-r--r-- 1 user user 2048 Jan 15 2025 file2.txt
 ```
 
+## 🔍 Core Features
+
+The program implements the following core functionalities :
+
+### Command Execution
+- Search and execute commands based on the PATH environment variable or absolute/relative paths.
+
+### Built-in Commands
+The following built-in commands must be implemented :
+| Built-in | Brief |
+|----------| :---: |
+| `echo` | Prints text to the terminal. Supports the `-n` option to suppress the newline. |
+| `cd` | Change the current directory. |
+| `pwd` | Print the current directory. |
+| `export` | Sets or updates environment variables. |
+| `unset` | Unsets environment variables. |
+| `env` | Displays the current environment variables. |
+| `exit` | Exit the shell. |
+
+
 My final grade :
 
 ![](imgs/101_percent.png)
